@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>血小板之父</title>
+  <title>Zzz__一__一__</title>
   
   
   <link href="https://xiemt9.github.io/atom.xml" rel="self"/>
   
   <link href="https://xiemt9.github.io/"/>
-  <updated>2024-03-10T06:14:15.223Z</updated>
+  <updated>2024-03-10T11:48:10.087Z</updated>
   <id>https://xiemt9.github.io/</id>
   
   <author>
@@ -17,17 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Bitter Moon</title>
+    <link href="https://xiemt9.github.io/2024/03/10/Bitter-Moon/"/>
+    <id>https://xiemt9.github.io/2024/03/10/Bitter-Moon/</id>
+    <published>2024-03-10T11:46:55.000Z</published>
+    <updated>2024-03-10T11:48:10.087Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;一个爱情惊悚故事&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="movie" scheme="https://xiemt9.github.io/tags/movie/"/>
+    
+  </entry>
+  
+  <entry>
     <title>last moments of life</title>
     <link href="https://xiemt9.github.io/2024/03/10/last-moments-of-life/"/>
     <id>https://xiemt9.github.io/2024/03/10/last-moments-of-life/</id>
     <published>2024-03-10T01:34:26.000Z</published>
-    <updated>2024-03-10T06:14:15.223Z</updated>
+    <updated>2024-03-10T12:22:56.068Z</updated>
     
     
-    <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;source from youtube : &lt;a href=&quot;https://www.youtube.com/watch?v=EDn-ZLMZpzA&amp;ab_channel=Navo159&quot;&gt;last moments of life&lt;/a&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;视频来源: &lt;a href=&quot;https://www.youtube.com/watch?v=EDn-ZLMZpzA&amp;ab_channel=Navo159&quot;&gt;last moments of life&lt;/a&gt;&lt;/p&gt;</summary>
     
     
     
+    
+    <category term="emotion" scheme="https://xiemt9.github.io/tags/emotion/"/>
     
   </entry>
   
@@ -36,13 +55,15 @@
     <link href="https://xiemt9.github.io/2024/03/09/Two-s-complement/"/>
     <id>https://xiemt9.github.io/2024/03/09/Two-s-complement/</id>
     <published>2024-03-09T08:51:34.000Z</published>
-    <updated>2024-03-10T06:30:14.609Z</updated>
+    <updated>2024-03-10T12:22:40.253Z</updated>
     
     
-    <summary type="html">&lt;h1 id=&quot;why-is-2’s-complement&quot;&gt;&lt;a href=&quot;#why-is-2’s-complement&quot; class=&quot;headerlink&quot; title=&quot;why is 2’s complement?&quot;&gt;&lt;/a&gt;why is 2’s complement?&lt;/h1&gt;&lt;p&gt;2’s complement is a method of how to represent numbers in computer memory.with 2’s complement,we could store values,do arithmetic compution and so on. there are many ways to represent numbers,howerever ,both of them are not that perfect,2’s complement overcomes these defaults to a great extent,that’s why it has been widely used now.&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;二补数的简介&lt;/p&gt;</summary>
     
     
     
+    
+    <category term="computer science" scheme="https://xiemt9.github.io/tags/computer-science/"/>
     
   </entry>
   
