@@ -34,31 +34,14 @@
   </entry>
   
   <entry>
-    <title>last moments of life</title>
-    <link href="https://xiemt9.github.io/2024/03/10/last-moments-of-life/"/>
-    <id>https://xiemt9.github.io/2024/03/10/last-moments-of-life/</id>
-    <published>2024-03-10T01:34:26.000Z</published>
-    <updated>2024-03-10T12:22:56.068Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;视频来源: &lt;a href=&quot;https://www.youtube.com/watch?v=EDn-ZLMZpzA&amp;ab_channel=Navo159&quot;&gt;last moments of life&lt;/a&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    
-    <category term="emotion" scheme="https://xiemt9.github.io/tags/emotion/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Two&#39;s complement</title>
     <link href="https://xiemt9.github.io/2024/03/09/Two-s-complement/"/>
     <id>https://xiemt9.github.io/2024/03/09/Two-s-complement/</id>
     <published>2024-03-09T08:51:34.000Z</published>
-    <updated>2024-03-10T12:22:40.253Z</updated>
+    <updated>2024-03-12T16:08:56.251Z</updated>
     
     
-    <summary type="html">&lt;p&gt;二补数的简介&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;二补数是计算机中把所有数字当成二进制数我们能常见的数据表示方式，便于数据处理，进行计算。二补数的诞生并不直觉，这篇文章先从其他表示方式说起，逐步引入二补数&lt;/p&gt;</summary>
     
     
     
