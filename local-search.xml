@@ -4,12 +4,43 @@
   
   
   <entry>
-    <title>Hello World</title>
-    <link href="/2024/06/27/hello-world/"/>
-    <url>/2024/06/27/hello-world/</url>
+    <title>differentiation</title>
+    <link href="/2024/07/02/differentiation/"/>
+    <url>/2024/07/02/differentiation/</url>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="part-a-definition-and-basic-rules"><strong>Part A: Definitionand Basic Rules</strong></h1><h2 id="introduction-to-derivatives">1. Introduction to Derivatives</h2><p><strong>a. geometric interpretation of differentiation</strong></p><p>​ <span class="math inline">\(f(x_0)\)</span>, the derivative of f at<span class="math inline">\(x_0\)</span>, is the slope of tangent lineto <span class="math inline">\(y=f(x)\)</span> at the point <spanclass="math inline">\(P= (x_0, y_0\)</span>)</p><p><strong>b. Limits of Secants</strong></p><p>​ the tangent line = the limit of the so called secant line PQ as Q<span class="math inline">\(\rightarrow\)</span> P (P is fixed).</p><p><strong>c. Slope as ration</strong></p><p>​ slope of the tangent line : <span class="math inline">\(m =\lim_{\Delta x \to \ 0}\frac{\Delta f}{\Delta x}\)</span></p><p><strong>d. Main formula</strong> <span class="math display">\[f^\prime(x) =\lim_{\Delta x \to \ 0}\frac{f(x_0+\Delta x)-f(x_0)}{\Delta x}\]</span></p><h2 id="examples-of-derivatives">2. Examples of Derivatives</h2><p><strong>a. Example 1: y = 1/x</strong> <span> <spanclass="math display">\[\begin{gather}\frac{\Delta f}{\Delta x} = \frac{\frac{1}{x_0 + \Deltax}-\frac{1}{x_0}}{\Delta x}\\=\frac{1}{\Delta x}*(\frac{x_0-(x_0+\Delta x)}{(x_0+\Delta x)*x_0}) \\=\frac{1}{\Delta x}(\frac{-\Delta x}{(x_0+\Delta x)*x_0})\\= \frac{-1}{(x_0+\Delta x)x_0}\\when \Delta x \rightarrow 0 ,\frac{\Delta f}{\Delta x} \rightarrow\frac{-1}{x_0^2} ,f^\prime(x) = \frac{-1}{x_0^2}\end{gather}\]</span> </span> <strong>b. Harder Problem: Triangles Under the Graphof y = 1/x</strong></p><p>Step 1: Calculate the x-intercept(y = 0) <span> <spanclass="math display">\[0-\frac{1}{x_0}=\frac{-1}{x_0^2}(x-x_0)=\frac{-x}{x_0^2}+\frac{1}{x_0}\\\Rightarrow \frac{x}{x_0^2} = \frac{2}{x_0}\\\Rightarrow x = 2x_0\]</span> </span> Step 2: Calculate the y-intercept(x = 0).</p><p>​ Shortcut : use symmetry. <span class="math inline">\(\Rightarrow y =2 y_0\)</span></p><p>Step3: compute the area using the intercepts.</p><p>​ <span class="math inline">\(area = \frac{1}{2} * 2x_0 * 2y_0=\frac{1}{2} * 4 *(x_0 * y_0)= 2\)</span></p><p><strong>c. Notation for Derivatives</strong></p><ul><li><span class="math inline">\(y = f(x)\)</span></li><li><span class="math inline">\(\Delta y = \Delta f\)</span></li><li><span class="math inline">\(f^\prime = \frac{df}{dx}=\frac{dy}{dx}=\frac{d}{dx}f=\frac{d}{dx}y\)</span></li></ul><p><strong>d. Example 2: y=x<sup>n</sup></strong> <spanclass="math display">\[\frac{\Delta f}{\Delta x}=\frac{(x+\Delta x)^n-x^n}{\Delta x}\]</span> according to binomial theorem, <span> <spanclass="math display">\[(x+\Delta x)^n=(x+\Delta x)*(x+\Delta x)...(x+\Delta x) \\= x^n + n*x^{n-1}*\Delta x+O(\Delta x)^2(junk)\]</span> </span> Then, <span> <span class="math display">\[\begin{gather}\frac{\Delta f}{\Delta x}=\frac{1}{\Delta x}((x+\Delta x)^n-x^n) \\=\frac{1}{\Delta x}(x^n+nx^{n-1}\Delta x+O(\Delta x)^2-x^n) \\=\frac{1}{\Delta x}(n\Delta x^{n-1}+O(\Delta x)^2) \\= nx^{n-1}+O(\Delta x) \\\Delta x\Rightarrow 0, \frac{d}{dx}x^n\Rightarrow nx^{n-1}\end{gather}\]</span> </span></p><h2 id="derivative-as-rate-of-change">3. Derivative as Rate ofChange</h2><p><strong>a. rates of change</strong></p><p>Average change: <span class="math inline">\(\frac{\Delta y}{\Deltax}\)</span></p><p>Instantaneous rate : <spanclass="math inline">\(\frac{dy}{dx}\)</span></p><p><strong>b. Physical interpretation of derivatives</strong></p><ol type="1"><li>q = charge,$ = $ current</li><li>s = distance, <span class="math inline">\(\frac{ds}{dt}=\)</span>speed</li><li>T = temperature, <span class="math inline">\(\frac{dT}{dx}=\)</span>temperature _gradient</li><li>Sensitivity of measurement.</li></ol>]]></content>
     
+    
+    <categories>
+      
+      <category>math</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>calculus</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>陆上行舟</title>
+    <link href="/2024/07/02/%E9%99%86%E4%B8%8A%E8%A1%8C%E8%88%9F/"/>
+    <url>/2024/07/02/%E9%99%86%E4%B8%8A%E8%A1%8C%E8%88%9F/</url>
+    
+    <content type="html"><![CDATA[<p><imgsrc="https://p.ssl.qhimg.com/t0192946fe54c374c3c.jpg?size=496x280" /></p><p>这部电影的导演是沃纳·赫尔佐格。电影背景是20世纪初的南美，讲述了一个痴迷歌剧的白人菲茨杰拉德为了在秘鲁小镇修建出宏大剧院，做出了一系列疯狂举动，甚至执意推动巨大的轮船行驶在高山上，最终歌剧表演给边陲小镇带来一点现代文明的浸染。</p><p>电影的前半部分让人昏昏欲睡，主要是菲茨杰拉德进行各种游说和人员物资准备。后半部分逐渐精彩起来，一边欣赏原始的亚马孙雨林野蛮而质朴的风貌，一边看菲茨杰拉德联手印第安人推动轮船跨越高山。之前一个探险队由于误入丛林深处而被印第安人残忍杀害，这一次菲茨杰拉德巧妙借助印第安人的神话将轮船涂成白色赢得了印第安人的帮助。印第安人希望平息亚马孙河流的愤怒，消除诅咒。在他们的世界观里，神灵与自然紧密相连。当菲茨杰拉德把冰放在族长手中时，世界仿佛都安静了。推船上山的过程困难重重，先砍山坡上的树，再利用杠杆原理修建传动装置，过程中参杂着印第安人的血肉。菲茨杰拉德从不悲观，这里向勇敢者和乐观主义致敬。当轮船冒着蒸汽在陆地上缓慢前进时，一切仿佛都功德圆满了。</p><p>人在面对自然的时候，只能赤手空拳地去搏斗，不管有多少财富和名誉。印第安人的生活显然更贴近自然，当文明如洪水般袭来，冲击这种古朴的生活模式，我会感到一点悲哀。现代文明的发展方向是脱离自然的，寻求更多的工具性满足。我并不反对文明的进步，步子过快，会消磨掉一些敬畏。</p><p>简而言之，本片是一部现代版的愚公移山故事，献给那些偏执狂和梦想家。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>观影</category>
+      
+    </categories>
     
     
   </entry>
